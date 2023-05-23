@@ -410,7 +410,7 @@ caCerts:
   secret: your-secret
 
 initSysctl:
-  enabled: true
+  enabled: false
   vmMaxMapCount: 524288
   fsFileMax: 131072
   nofile: 131072
@@ -421,7 +421,7 @@ initSysctl:
   # resources: {}
 
 initFs:
-  enabled: true
+  enabled: false
   # image: busybox:1.32
   securityContext:
     privileged: true
